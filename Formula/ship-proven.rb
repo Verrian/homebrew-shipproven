@@ -9,11 +9,11 @@ class ShipProven < Formula
   on_macos do
     on_arm do
       url "https://storage.googleapis.com/downloads-product-first/ship-proven/v0.0.218/ship-proven-darwin-arm64"
-      sha256 "e200554f832d89c6bebbb46193065438efac330eb5d38dba728b53460fa84db8"
+      sha256 "26e802c2ea2d308f0e3aacce3bbc0f13eb3adcbf27ff24a57c7580971e52c341"
     end
     on_intel do
       url "https://storage.googleapis.com/downloads-product-first/ship-proven/v0.0.218/ship-proven-darwin-amd64"
-      sha256 "e6fbda073253d7cef7cb2b5bad60118721195b88fbc9be0da26af1276d900639"
+      sha256 "6ebbc46d5cca49b71f862c420533045a539d88fee0fcadb4cdee3d4a7ca84450"
     end
   end
 
