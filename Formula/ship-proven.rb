@@ -3,17 +3,17 @@
 class ShipProven < Formula
   desc "Terminal client for ShipProven"
   homepage "https://github.com/Verrian/homebrew-shipproven"
-  version "0.0.237"
+  version "0.0.238"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://storage.googleapis.com/downloads-product-first/ship-proven/v0.0.237/ship-proven-darwin-arm64"
-      sha256 "426f073e363d81793cbaf8c9d46cc2299669009db6045cfc8dac184c05fcbcc0"
+      url "https://storage.googleapis.com/downloads-product-first/ship-proven/v0.0.238/ship-proven-darwin-arm64"
+      sha256 "92436772bdf52813feb494a3ce5f897f5c2394a3435445ba1ccb7617c7418659"
     end
     on_intel do
-      url "https://storage.googleapis.com/downloads-product-first/ship-proven/v0.0.237/ship-proven-darwin-amd64"
-      sha256 "9affdfcd29ace880ba5d99af6fd38980d547d6c9bd2b1c1442c1374127c72d0b"
+      url "https://storage.googleapis.com/downloads-product-first/ship-proven/v0.0.238/ship-proven-darwin-amd64"
+      sha256 "81862dd8e5fb16e899c894da952f6ef8e88b90d21eccfaa860ec9c64f7e6b498"
     end
   end
 
@@ -26,6 +26,6 @@ class ShipProven < Formula
   test do
     # `version` needs no cluster, no config and no network — the only
     # subcommand that can run in a sandbox with nothing set up.
-    assert_match "0.0.237", shell_output("#{bin}/ship-proven version")
+    assert_match "0.0.238", shell_output("#{bin}/ship-proven version")
   end
 end
